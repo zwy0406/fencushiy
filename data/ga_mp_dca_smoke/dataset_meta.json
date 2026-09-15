@@ -1,0 +1,11 @@
+{
+  "seed": 2025,
+  "number_of_drones": 10,
+  "speed_mps": 15,
+  "enable_poi": false,
+  "trajectory_samples": 50,
+  "graph_samples": 25,
+  "history_size": 20,
+  "prediction_horizon": 5,
+  "mobility_model": "GaussMarkov3D"
+}

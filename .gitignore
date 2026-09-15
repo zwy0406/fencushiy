@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.xlsx
+*.tar
+*.tar.gz
+results/**/figures/
+results/**/plots/
+.DS_Store

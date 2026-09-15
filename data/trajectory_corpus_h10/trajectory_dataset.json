@@ -1,0 +1,24 @@
+{
+  "generator": "GaussMarkov3D-compatible mobility-only corpus",
+  "seeds": [
+    2025,
+    2026,
+    2027,
+    2028,
+    2029
+  ],
+  "speeds_mps": [
+    10.0,
+    15.0,
+    20.0,
+    25.0,
+    30.0
+  ],
+  "tracks_per_setting": 12,
+  "track_count": 300,
+  "duration_s": 180,
+  "history_s": 20,
+  "horizon_s": 10,
+  "stride_s": 2,
+  "sample_count": 22800
+}

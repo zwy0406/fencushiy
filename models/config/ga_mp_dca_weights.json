@@ -1,0 +1,12 @@
+{
+  "algorithm": "GA_MP_DCA",
+  "scenario": "default",
+  "weights": {
+    "w1_energy": 0.24,
+    "w2_link_quality": 0.18,
+    "w3_tlet": 0.3,
+    "w4_topology": 0.2,
+    "w5_mobility": 0.08
+  },
+  "source": "default-bootstrap"
+}

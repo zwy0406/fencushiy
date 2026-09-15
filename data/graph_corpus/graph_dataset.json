@@ -1,0 +1,25 @@
+{
+  "generator": "GaussMarkov3D-compatible graph corpus",
+  "seeds": [
+    2025,
+    2026,
+    2027,
+    2028,
+    2029
+  ],
+  "speeds_mps": [
+    10.0,
+    15.0,
+    20.0,
+    25.0,
+    30.0
+  ],
+  "scenarios_per_setting": 6,
+  "scenario_count": 150,
+  "n_drones": 20,
+  "duration_s": 80,
+  "prediction_horizon_s": 5,
+  "snapshot_stride_s": 5,
+  "comm_range_m": 200,
+  "sample_count": 2100
+}
