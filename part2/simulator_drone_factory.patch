@@ -1,0 +1,20 @@
+--- a/simulator/simulator.py
++++ b/simulator/simulator.py
+@@ -35,6 +35,8 @@
+     Created at: 2024/1/11
+     Updated at: 2025/7/8
+     """
++
++    drone_class = Drone
+
+     def __init__(self,
+                  seed,
+@@ -88,7 +90,7 @@
+
+             if config.ENABLE_VISUALIZATION:
+                 print('UAV: ', i, ' initial location is at: ', coords, ' speed is: ', speed)
+-            drone = Drone(env=env,
++            drone = self.drone_class(env=env,
+                           node_id=i,
+                           coords=coords,
+                           speed=speed,
