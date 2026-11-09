@@ -1,0 +1,334 @@
+[
+  {
+    "time_us": 1000000,
+    "epoch": 1,
+    "clusters": {
+      "4": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1
+      ]
+    },
+    "cluster_heads": [
+      1,
+      4
+    ],
+    "backbone_relays": [],
+    "paths_to_bs": {
+      "1": [
+        1,
+        0
+      ],
+      "4": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "time_us": 2000000,
+    "epoch": 2,
+    "clusters": {
+      "4": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1
+      ]
+    },
+    "cluster_heads": [
+      1,
+      4
+    ],
+    "backbone_relays": [],
+    "paths_to_bs": {
+      "1": [
+        1,
+        0
+      ],
+      "4": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "time_us": 3000000,
+    "epoch": 3,
+    "clusters": {
+      "4": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1
+      ]
+    },
+    "cluster_heads": [
+      1,
+      4
+    ],
+    "backbone_relays": [],
+    "paths_to_bs": {
+      "4": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "time_us": 4000000,
+    "epoch": 4,
+    "clusters": {
+      "4": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1
+      ]
+    },
+    "cluster_heads": [
+      1,
+      4
+    ],
+    "backbone_relays": [],
+    "paths_to_bs": {
+      "4": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "time_us": 5000000,
+    "epoch": 5,
+    "clusters": {
+      "4": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1
+      ]
+    },
+    "cluster_heads": [
+      1,
+      4
+    ],
+    "backbone_relays": [],
+    "paths_to_bs": {
+      "4": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "time_us": 6000000,
+    "epoch": 6,
+    "clusters": {
+      "4": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1
+      ]
+    },
+    "cluster_heads": [
+      1,
+      4
+    ],
+    "backbone_relays": [],
+    "paths_to_bs": {
+      "4": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "time_us": 7000000,
+    "epoch": 7,
+    "clusters": {
+      "4": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1
+      ]
+    },
+    "cluster_heads": [
+      1,
+      4
+    ],
+    "backbone_relays": [],
+    "paths_to_bs": {
+      "4": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "time_us": 8000000,
+    "epoch": 8,
+    "clusters": {
+      "4": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1
+      ]
+    },
+    "cluster_heads": [
+      1,
+      4
+    ],
+    "backbone_relays": [],
+    "paths_to_bs": {
+      "4": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "time_us": 9000000,
+    "epoch": 9,
+    "clusters": {
+      "4": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1
+      ]
+    },
+    "cluster_heads": [
+      1,
+      4
+    ],
+    "backbone_relays": [],
+    "paths_to_bs": {
+      "4": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "time_us": 10000000,
+    "epoch": 10,
+    "clusters": {
+      "4": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1
+      ]
+    },
+    "cluster_heads": [
+      1,
+      4
+    ],
+    "backbone_relays": [],
+    "paths_to_bs": {
+      "4": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "time_us": 11000000,
+    "epoch": 11,
+    "clusters": {
+      "4": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1
+      ]
+    },
+    "cluster_heads": [
+      1,
+      4
+    ],
+    "backbone_relays": [],
+    "paths_to_bs": {
+      "4": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "time_us": 12000000,
+    "epoch": 12,
+    "clusters": {
+      "4": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1
+      ]
+    },
+    "cluster_heads": [
+      1,
+      4
+    ],
+    "backbone_relays": [],
+    "paths_to_bs": {
+      "4": [
+        4,
+        0
+      ]
+    }
+  }
+]
