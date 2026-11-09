@@ -1,0 +1,70 @@
+{
+  "integrity": {
+    "snapshot_count": 299,
+    "cluster_rows": 5273,
+    "node_rows": 29601,
+    "first_time_us": 1000000,
+    "last_time_us": 299000000,
+    "missing_snapshots": 0,
+    "malformed_rows": 0,
+    "logged_errors": 0,
+    "path_structures_valid": true
+  },
+  "mean_cluster_size": 5.643439513748145,
+  "pooled_p90": 8.0,
+  "ch_switches": 1060,
+  "ch_tenure_median_s": 1.0,
+  "ch_complete_count": 1897,
+  "ch_right_censored": 19,
+  "mean_member_retention": 0.7294420717239509,
+  "member_moves": 7982,
+  "splits": 256,
+  "merges": 294,
+  "windows": {
+    "1": {
+      "count": 298,
+      "member_retention": 0.6968131687768718,
+      "ch_retention": 0.7555150033214582,
+      "size_change": 0.8899504690488702,
+      "splits": 256,
+      "merges": 294,
+      "path_changes": 1939
+    },
+    "2": {
+      "count": 149,
+      "member_retention": 0.6194359857106044,
+      "ch_retention": 0.5807655294874008,
+      "size_change": 1.094120759487913,
+      "splits": 256,
+      "merges": 294,
+      "path_changes": 1939
+    },
+    "3": {
+      "count": 99,
+      "member_retention": 0.5811309514623113,
+      "ch_retention": 0.4752102126433677,
+      "size_change": 1.175324296915206,
+      "splits": 254,
+      "merges": 292,
+      "path_changes": 1936
+    },
+    "5": {
+      "count": 59,
+      "member_retention": 0.5256932241638836,
+      "ch_retention": 0.30510523042925836,
+      "size_change": 1.406653594826576,
+      "splits": 253,
+      "merges": 291,
+      "path_changes": 1923
+    },
+    "10": {
+      "count": 29,
+      "member_retention": 0.4327756884894144,
+      "ch_retention": 0.18711422676939918,
+      "size_change": 1.5282612023991333,
+      "splits": 252,
+      "merges": 284,
+      "path_changes": 1880
+    }
+  }
+}

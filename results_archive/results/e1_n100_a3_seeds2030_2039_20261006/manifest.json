@@ -1,0 +1,70 @@
+{
+  "phase": "matrix",
+  "seeds": [
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035,
+    2036,
+    2037,
+    2038,
+    2039
+  ],
+  "n_drones": 100,
+  "speed_mps": 15.0,
+  "traffic_rate_pps": 2.0,
+  "comm_range_m": 250.0,
+  "sim_time_s": 300.0,
+  "parallel_workers": 10,
+  "methods": [
+    "DSDV",
+    "MOBIC",
+    "ORIGINAL_MWMP",
+    "TORP_LIKE",
+    "PROPOSED"
+  ],
+  "e8_modes": [
+    "current",
+    "kinematic",
+    "oracle"
+  ],
+  "method_profiles": {
+    "DSDV": {
+      "protocol": "DSDV",
+      "cluster_algorithm": "DSDV"
+    },
+    "MOBIC": {
+      "protocol": "MWMP_DCA",
+      "cluster_algorithm": "MOBIC",
+      "USE_BACKBONE_CONNECTORS": false,
+      "BACKBONE_RELAY_HOLD_ROUNDS": 0,
+      "USE_CH_ROTATION": false
+    },
+    "ORIGINAL_MWMP": {
+      "protocol": "MWMP_DCA",
+      "cluster_algorithm": "MWMP_DCA",
+      "MWMP_DECISION_MODE": "original",
+      "USE_BACKBONE_CONNECTORS": false,
+      "BACKBONE_RELAY_HOLD_ROUNDS": 0
+    },
+    "TORP_LIKE": {
+      "protocol": "TORP_LIKE",
+      "cluster_algorithm": "TORP_LIKE"
+    },
+    "PROPOSED": {
+      "protocol": "MWMP_DCA",
+      "cluster_algorithm": "MWMP_DCA",
+      "MWMP_DECISION_MODE": "proposed",
+      "USE_BACKBONE_CONNECTORS": true,
+      "BACKBONE_RELAY_HOLD_ROUNDS": 0
+    }
+  },
+  "energy_accounting": "shared_tx_rx_for_all_methods",
+  "delta_direction": {
+    "pdr": "proposed_minus_baseline_positive_is_better",
+    "e_pkt": "proposed_minus_baseline_negative_is_better",
+    "r_bs": "proposed_minus_baseline_positive_is_better"
+  }
+}

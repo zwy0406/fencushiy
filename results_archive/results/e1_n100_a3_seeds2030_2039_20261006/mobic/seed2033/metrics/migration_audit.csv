@@ -1,0 +1,16 @@
+active_epoch,candidate_path,communication_range_m,current_node,destination_id,destination_is_bs,event,failure_reason,migration_count,next_hop_distance_m,next_hop_id,noise_only_snr_db,old_pinned_path,original_backbone_target,packet_id,rejected_nodes,requested_target,route_epoch,snr_threshold_db,source_id,time_us,trigger_reason,visited_nodes
+183,,250.0,91,61,False,migration_attempt,,1,250.10186069658164,61,5.971064610697832,91|61,91,35696,,91,183,6,31,183000010.0,NEXT_HOP_UNREACHABLE,31|38|47|91
+183,,250.0,91,61,False,migration_failed,DESTINATION_UNREACHABLE,1,,,,,91,35696,,91,183,6,31,183000010.0,NEXT_HOP_UNREACHABLE,31|38|47|91
+183,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,183600000.0,DESTINATION_UNREACHABLE,31|38|47|91
+184,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,184200000.0,DESTINATION_UNREACHABLE,31|38|47|91
+184,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,184800000.0,DESTINATION_UNREACHABLE,31|38|47|91
+185,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,185400000.0,DESTINATION_UNREACHABLE,31|38|47|91
+186,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,186000000.0,DESTINATION_UNREACHABLE,31|38|47|91
+186,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,186600000.0,DESTINATION_UNREACHABLE,31|38|47|91
+187,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,187200000.0,DESTINATION_UNREACHABLE,31|38|47|91
+187,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,187800000.0,DESTINATION_UNREACHABLE,31|38|47|91
+188,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,188400000.0,DESTINATION_UNREACHABLE,31|38|47|91
+189,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,189000000.0,DESTINATION_UNREACHABLE,31|38|47|91
+189,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,189600000.0,DESTINATION_UNREACHABLE,31|38|47|91
+190,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,190200000.0,DESTINATION_UNREACHABLE,31|38|47|91
+190,,250.0,91,61,False,post_migration_repin_blocked,,1,,,,,91,35696,,,183,6,31,190800000.0,DESTINATION_UNREACHABLE,31|38|47|91

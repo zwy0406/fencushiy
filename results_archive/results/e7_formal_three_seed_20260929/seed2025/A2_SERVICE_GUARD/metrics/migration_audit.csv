@@ -1,0 +1,13 @@
+active_epoch,candidate_path,communication_range_m,current_node,destination_id,destination_is_bs,event,failure_reason,migration_count,next_hop_distance_m,next_hop_id,noise_only_snr_db,old_pinned_path,original_backbone_target,packet_id,rejected_nodes,requested_target,route_epoch,snr_threshold_db,source_id,time_us,trigger_reason,visited_nodes
+8,,250.0,51,9,False,migration_attempt,,1,250.12095866889794,9,5.970401374741739,51|9,51,733,,51,8,6,51,8400070.0,NEXT_HOP_UNREACHABLE,51
+8,,250.0,51,9,False,migration_failed,DESTINATION_UNREACHABLE,1,,,,,51,733,,51,8,6,51,8400070.0,NEXT_HOP_UNREACHABLE,51
+9,,250.0,51,9,False,post_migration_repin_blocked,,1,,,,,51,733,,,8,6,51,9000000.0,DESTINATION_UNREACHABLE,51
+9,,250.0,51,9,False,post_migration_repin_blocked,,1,,,,,51,733,,,8,6,51,9600000.0,DESTINATION_UNREACHABLE,51
+10,,250.0,51,9,False,post_migration_repin_blocked,,1,,,,,51,733,,,8,6,51,10200000.0,DESTINATION_UNREACHABLE,51
+10,,250.0,51,9,False,post_migration_repin_blocked,,1,,,,,51,733,,,8,6,51,10800000.0,DESTINATION_UNREACHABLE,51
+11,,250.0,51,9,False,post_migration_repin_blocked,,1,,,,,51,733,,,8,6,51,11400000.0,DESTINATION_UNREACHABLE,51
+12,,250.0,51,9,False,post_migration_repin_blocked,,1,,,,,51,733,,,8,6,51,12000000.0,DESTINATION_UNREACHABLE,51
+12,,250.0,51,9,False,post_migration_repin_blocked,,1,,,,,51,733,,,8,6,51,12600000.0,DESTINATION_UNREACHABLE,51
+13,,250.0,51,9,False,post_migration_repin_blocked,,1,,,,,51,733,,,8,6,51,13200000.0,DESTINATION_UNREACHABLE,51
+13,,250.0,51,9,False,post_migration_repin_blocked,,1,,,,,51,733,,,8,6,51,13800000.0,DESTINATION_UNREACHABLE,51
+14,,250.0,51,9,False,post_migration_repin_blocked,,1,,,,,51,733,,,8,6,51,14400000.0,DESTINATION_UNREACHABLE,51

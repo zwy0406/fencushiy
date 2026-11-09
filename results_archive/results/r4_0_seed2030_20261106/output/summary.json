@@ -1,0 +1,52 @@
+{
+  "integrity": {
+    "snapshot_count": 299,
+    "cluster_rows": 4504,
+    "node_rows": 23621,
+    "first_time_us": 1000000,
+    "last_time_us": 299000000,
+    "missing_snapshots": 0,
+    "malformed_rows": 0,
+    "logged_errors": 0,
+    "path_structures_valid": true
+  },
+  "mean_cluster_size": 5.281209815336729,
+  "pooled_p90": 8.0,
+  "ch_switches": 775,
+  "ch_tenure_median_s": 2.0,
+  "ch_complete_count": 1342,
+  "ch_right_censored": 15,
+  "mean_member_retention": 0.7760173307280605,
+  "member_moves": 5273,
+  "splits": 227,
+  "merges": 232,
+  "windows": {
+    "3": {
+      "count": 99,
+      "member_retention": 0.6260853447540939,
+      "ch_retention": 0.5509171664474695,
+      "size_change": 1.1484338893429802,
+      "splits": 226,
+      "merges": 231,
+      "path_changes": 1684
+    },
+    "5": {
+      "count": 59,
+      "member_retention": 0.5687328668486952,
+      "ch_retention": 0.3848010275976378,
+      "size_change": 1.4570599833311697,
+      "splits": 225,
+      "merges": 228,
+      "path_changes": 1676
+    },
+    "10": {
+      "count": 29,
+      "member_retention": 0.48869194455177434,
+      "ch_retention": 0.22157574226539745,
+      "size_change": 1.5523440161371196,
+      "splits": 218,
+      "merges": 221,
+      "path_changes": 1648
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "snapshot_count": 299,
+  "cluster_rows": 3827,
+  "node_rows": 17641,
+  "first_time_us": 1000000,
+  "last_time_us": 299000000,
+  "missing_snapshots": 0,
+  "malformed_rows": 0,
+  "logged_errors": 0,
+  "path_structures_valid": true,
+  "size": 60,
+  "packet_count": 35495,
+  "energy_error_j": 8.837799381211653e-10,
+  "network_lifetime_s": 299.999999,
+  "wall_clock_s": "see log",
+  "git_commit": "83964df302de72553bf217fc124ee2078a652753"
+}

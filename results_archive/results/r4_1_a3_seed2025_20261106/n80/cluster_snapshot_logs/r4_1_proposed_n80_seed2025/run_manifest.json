@@ -1,0 +1,58 @@
+{
+  "N_UAV": 80,
+  "N_UAV_includes_base_station": true,
+  "active_uav_count": 79,
+  "cluster_interval": {
+    "time_us": 1000000.0,
+    "unit": "s",
+    "value": 1.0
+  },
+  "cluster_interval_us": 1000000.0,
+  "config_file_info": {
+    "path": "/opt/data/private/LCX/fencushiy/utils/config.py",
+    "sha256": "ab0e908c66b5362cb13b6f20430e7d98ee92a02357ef19f19ecb98a63cab193e"
+  },
+  "effective_configuration": {
+    "cluster_algorithm": "MWMP_DCA",
+    "communication_range": 250.0,
+    "data_packet_rate": 2.0,
+    "mobility_trace_file": "/opt/data/private/LCX/fencushiy/results/r4_1_a3_seed2025_20261106/mobility_traces/seed2025_n80_v15.json",
+    "mobility_trace_mode": "replay",
+    "predictor_mode": "kinematic",
+    "routing_protocol": "MWMP_DCA"
+  },
+  "experiment_config": {
+    "cluster_algorithm": "MWMP_DCA",
+    "communication_range": 250.0,
+    "data_packet_rate": 2.0,
+    "mobility_trace_file": "/opt/data/private/LCX/fencushiy/results/r4_1_a3_seed2025_20261106/mobility_traces/seed2025_n80_v15.json",
+    "mobility_trace_mode": "replay",
+    "predictor_mode": "kinematic",
+    "routing_protocol": "MWMP_DCA"
+  },
+  "format_version": "r3-cluster-snapshot-v1",
+  "git_commit": "83964df302de72553bf217fc124ee2078a652753",
+  "logger_enabled": true,
+  "logging_enabled": true,
+  "output_files": [
+    "cluster_snapshots.csv",
+    "node_roles.csv",
+    "backbone_snapshots.jsonl",
+    "run_manifest.json"
+  ],
+  "record_error_count": 0,
+  "record_errors_sample": [],
+  "schema_version": "r3-cluster-snapshot-v1",
+  "seed": 2025,
+  "service_uav_definition": "undefined",
+  "simulation_duration": {
+    "time_us": 300000000,
+    "unit": "s",
+    "value": 300.0
+  },
+  "simulation_duration_s": 300.0,
+  "simulation_duration_us": 300000000,
+  "simulator_node_count": 80,
+  "snapshot_count": 299,
+  "snapshot_source_available": true
+}

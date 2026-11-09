@@ -1,0 +1,11 @@
+{
+  "snapshot_count": 299,
+  "cluster_rows": 3827,
+  "node_rows": 17641,
+  "first_time_us": 1000000,
+  "last_time_us": 299000000,
+  "missing_snapshots": 0,
+  "malformed_rows": 0,
+  "logged_errors": 0,
+  "path_structures_valid": true
+}
